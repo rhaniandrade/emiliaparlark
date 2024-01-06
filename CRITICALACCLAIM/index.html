@@ -80,10 +80,38 @@ setTimeout(atualizarContador, 1000);
 
             <!-- VSL -->
 
-            <body
-              center>
-            <iframe width="400" height="270" src="https://www.youtube.com/embed/wmxg3jY8OeI?si=3kGDaWWZKgRc9iGX&amp;controls=0&amp;start=37" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            <body>
+            <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Video Player</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      background-color: #000; /* Cor de fundo do vídeo */
+    }
+
+    iframe {
+      width: 100%;
+      max-width: 400px; /* Largura máxima desejada para o vídeo */
+      height: 100%;
+    }
+  </style>
+</head>
+<body>
+  <iframe
+    src="https://www.youtube.com/embed/wmxg3jY8OeI?si=3kGDaWWZKgRc9iGX&amp;controls=0&amp;start=37"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen
+  ></iframe>
+</body>
+</html>
 
             
             
